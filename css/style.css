@@ -25,3 +25,13 @@ body {
 	margin: 0 auto;
 	max-width: 1140px; /* 1110+15+15 */
 }
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	z-index: 50;
+}
