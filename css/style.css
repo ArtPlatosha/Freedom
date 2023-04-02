@@ -26,6 +26,28 @@ body {
 	max-width: 1140px; /* 1110+15+15 */
 }
 
+.button {
+	background-color: #E11B19;
+	border-radius: 40px;
+	padding: 20px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 125%; /* 20/16 */
+	transition: background-color .3s;
+}
+
+.button:hover {
+	background-color: #8b1210;
+}
+
+.button span {
+	display: block;
+	padding-right: 22px;
+	background: url('../img/icons/arrow.svg') right no-repeat;
+}
+
 .header {
 	position: absolute;
 	top: 0;
