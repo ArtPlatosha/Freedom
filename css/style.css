@@ -57,3 +57,63 @@ body {
 	padding-bottom: 30px;
 	z-index: 50;
 }
+
+.main-block {
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background: url('../img/main-background.jpg') center / cover no-repeat;
+	position: relative;
+}
+
+.main-block::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: radial-gradient(837.78% 378.29% at 69.44% -79.86%, rgba(31, 35, 39, 0) 0%, #191C1F 47.89%, rgba(31, 35, 39, 0) 100%)
+}
+
+.main-block__container {
+	position: relative;
+	z-index: 2;
+}
+
+.main-block__body {
+	max-width: 746px;
+}
+
+.main-block__label {
+	line-height: 111.111111%; /* 20/18 */
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.main-block__label:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.main-block__title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 117.1875%; /* 75/64 */
+}
+
+.main-block__title:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.main-block__text {
+	font-size: 24px;
+	line-height: 125%; /* 30/24 */
+}
+
+.main-block__text:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.main-block_button:not(:last-child) {
+	margin-bottom: 15px;
+}
