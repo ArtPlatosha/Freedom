@@ -1,0 +1,27 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+body {
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background-color: #191c1f;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper > main {
+	flex: 1 1 auto;
+}
+
+[class*='__container'] {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	max-width: 1140px; /* 1110+15+15 */
+}
