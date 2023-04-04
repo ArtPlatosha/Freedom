@@ -274,3 +274,46 @@ body {
 		padding-left: 0;
 	}
 }
+
+.leader {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.leader__container {
+	display: flex;
+	align-items: center;
+}
+
+.leader__content {
+	flex: 0 1 50%;
+	padding-right: 125px;
+}
+
+.leader__label:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.leader__title {
+	max-width: 350px;
+}
+
+.leader__title:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.leader__text {
+	line-height: 139%;
+}
+
+.leader__text:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.leader__image {
+	flex: 0 1 50%
+}
+
+.leader__image img {
+	max-width: 100%;
+}
