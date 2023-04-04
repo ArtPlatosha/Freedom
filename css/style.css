@@ -143,6 +143,13 @@ body {
 	}
 }
 
+@media (max-width: 768px) {
+	.main-block {
+		padding-top: 100px;
+		padding-bottom: 0;
+	}
+}
+
 .benefits {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -231,4 +238,39 @@ body {
 
 .trainning__image img {
 	max-width: 100%;
+}
+
+@media (max-width: 1140px) {
+	.trainning__content {
+		padding-left: 50px;
+	}
+}
+
+@media (max-width: 991px) {
+	.trainning {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.trainning__content {
+		padding-left: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.trainning {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.trainning__container {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 30px;
+	}
+
+	.trainning__content {
+		padding-left: 0;
+	}
 }
