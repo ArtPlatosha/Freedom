@@ -55,6 +55,13 @@ body {
 	font-weight: 700;
 }
 
+.label {
+	font-size: 16px;
+	line-height: 125%; /* 20/16 */
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 .header {
 	position: absolute;
 	top: 0;
@@ -170,4 +177,58 @@ body {
 	line-height: 125%; /* 30/24 */
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.trainning {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #1F2327;
+}
+
+.trainning__container {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.trainning__content {
+	flex: 0 1 50%;
+	padding-left: 123px;
+}
+
+.trainning__label:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.trainning__title {
+	max-width: 350px;
+}
+
+.trainning__title:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.trainning__list li {
+	padding-left: 35px;
+	font-size: 16px;
+	line-height: 125%; /* 20/16 */
+	text-transform: uppercase;
+	font-weight: 700;
+	background: url('../img/icons/check.svg') 0 3px no-repeat;
+}
+
+.trainning__list li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.trainning__list:not(:last-child) {
+	margin-bottom: 15px;
+} 
+
+.trainning__image {
+	flex: 0 1 50%;
+}
+
+.trainning__image img {
+	max-width: 100%;
 }
