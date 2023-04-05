@@ -422,3 +422,21 @@ body {
 .academy__button:not(:last-child) {
 	margin-bottom: 20px;
 }
+
+@media (max-width: 992px) {
+	.academy {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.academy__title {
+		font-size: 54px;
+	}
+}
+
+@media (max-width: 768px) {
+	.academy {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
